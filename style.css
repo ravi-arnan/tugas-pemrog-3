@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 50px;
+}
+
+.container {
+    max-width: 300px; /* Lebar form lebih kecil */
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 14px; /* Ukuran font label lebih kecil */
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="number"] {
+    padding: 8px; /* Padding lebih kecil */
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px; /* Ukuran font lebih kecil */
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #3297b6;
+    color: white;
+    padding: 8px 0; /* Padding lebih kecil */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px; /* Ukuran font lebih kecil */
+}
+
+input[type="submit"]:hover {
+    background-color: #3297b6;
+}
+
+h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+.result-box {
+    background-color: #e0e0e0;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
